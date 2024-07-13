@@ -1,10 +1,6 @@
-transformers
-PyPDF2
-python-dotenv
-llama-index==0.10.12
-gradio
-einops 
-accelerate
-llama-index-llms-huggingface
-fastembed
-llama-index-index-embeddings-fastembed 
+ctransformers
+sentence-transformers
+pinecone-client 
+langchain
+flask
+ 
