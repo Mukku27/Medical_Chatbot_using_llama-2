@@ -3,4 +3,4 @@ sentence-transformers
 pinecone-client 
 langchain
 flask
- 
+python-dotenv
