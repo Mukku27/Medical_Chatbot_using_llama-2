@@ -1,6 +1,9 @@
 ctransformers
 sentence-transformers
 pinecone-client 
+pinecone[grpc]
 langchain
+langchain-community
+langchain-pinecone
 flask
 python-dotenv
