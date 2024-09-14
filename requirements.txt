@@ -8,3 +8,4 @@ langchain-pinecone
 tiktoken
 flask
 python-dotenv
+-e.
