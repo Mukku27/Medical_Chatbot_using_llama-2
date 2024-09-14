@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-PINECONE_API_KEY=os.getenv('PINECONE_API_KEY')
+os.environ['PINECONE_API_KEY'] = os.getenv('PINECONE_API_KEY')
 
 extracted_data=load_pdf('content/')
 text_chunks=text_split(extract_data=extracted_data)
